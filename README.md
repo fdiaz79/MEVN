@@ -25,6 +25,20 @@ add middleware
 create the port 
 make the app to listen to the port
 
+## ROUTER AND API INITIALIZED
+Create in server routes/api/posts.js
+In it initialize express and express.router
+Create get, add, update and delete api's.
+    route.get('/ruta', action)
+export module
+
+In index.js
+Require the file posts.js to bring the router and the api's
+Add to the middleware
+    app.use('/api/posts', posts), where posts is the module imported from posts.js
+
+
+
 
 
 
